@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  body {
+    @apply bg-terminal-bg text-terminal-text font-sans antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* Terminal scrollbar */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  @apply bg-terminal-surface;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-terminal-border rounded-full;
+}
