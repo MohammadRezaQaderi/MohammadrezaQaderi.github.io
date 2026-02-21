@@ -35,7 +35,7 @@ export default function Nav() {
           className="font-mono text-terminal-go text-xs sm:text-sm hover:text-terminal-go/80 truncate min-w-0"
           onClick={close}
         >
-          mgh@portfolio:~$
+          mrq@howami:~$
         </a>
 
         {/* Desktop: horizontal links */}

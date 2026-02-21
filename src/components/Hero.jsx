@@ -83,7 +83,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto w-full text-center">
         <div className="flex justify-center mb-6 sm:mb-8">
           <img
-            src="/profile.jpeg"
+            src="/mrq.jpeg"
             alt="Mohammadreza Qaderi – Senior Backend Engineer"
             className="w-28 h-28 sm:w-36 sm:h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-terminal-border shadow-neon-go ring-2 ring-terminal-go/30"
             width={160}
@@ -119,15 +119,15 @@ export default function Hero() {
           <span className="hidden sm:inline text-terminal-muted">|</span>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
             <a
-              href="/ShortCV.pdf"
-              download="Mohammadreza-Qaderi-ShortCV.pdf"
+              href="/MrqCV.pdf"
+              download="Mohammadreza-Qaderi-CV.pdf"
               className="w-full sm:w-auto inline-flex justify-center items-center px-5 py-2.5 sm:py-3 rounded-lg border border-terminal-python text-terminal-python hover:bg-terminal-python/10 transition-colors font-mono text-sm"
             >
               Short CV
             </a>
             <a
-              href="/Mgh.pdf"
-              download="Mohammadreza-Qaderi-CV.pdf"
+              href="/MasterCV.pdf"
+              download="Mohammadreza-Qaderi-Master-CV.pdf"
               className="w-full sm:w-auto inline-flex justify-center items-center px-5 py-2.5 sm:py-3 rounded-lg border border-terminal-go text-terminal-go hover:bg-terminal-go/10 transition-colors font-mono text-sm"
             >
               Full CV

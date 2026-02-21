@@ -2,45 +2,45 @@ const PROJECTS = [
   {
     title: 'Paper Trading Platform',
     desc: 'Simulated trading for Iranian stock market with real-time data and portfolio analytics.',
-    tags: ['Go', 'Real-time', 'Trading'],
-    link: null,
+    tags: ['Go', 'Python', 'Real-time', 'Trading'],
+    link: 'https://demo.mavaratrader.ir/',
   },
   {
     title: 'Video Swin Transformer',
     desc: 'Video recognition model with locality and spatial-temporal factorization for speed-accuracy trade-offs.',
     tags: ['PyTorch', 'ML', 'Research'],
-    link: null,
+    link: 'https://github.com/MohammadRezaQaderi/Video-Swin-Transformer',
   },
   {
     title: 'University Major Selection System',
     desc: 'AI-driven platform for Iranian applicants: exam results analysis and acceptance probability prediction.',
     tags: ['AI', 'Data', 'Web'],
-    link: null,
+    link: 'https://entekhabbaazmoon.com',
   },
   {
     title: 'Search Engine',
     desc: 'Document retrieval using statistical models and word embeddings.',
     tags: ['NLP', 'IR', 'Python'],
-    link: null,
+    link: 'https://github.com/MohammadRezaQaderi/Information-Retrieval-System',
   },
   {
     title: 'Evolutionary Game AI (Flappy Plane)',
     desc: 'Evolutionary algorithm learning across 3 difficulty modes over generations.',
     tags: ['AI', 'Game', 'Evolution'],
-    link: null,
+    link: 'https://github.com/MohammadRezaQaderi/EvolutionaryGames',
   },
   {
     title: 'Message Broker',
     desc: 'Custom message broker and multi-client messenger with Python sockets.',
     tags: ['Python', 'Sockets', 'Distributed'],
-    link: null,
+    link: 'https://github.com/MohammadRezaQaderi/dallal',
   },
 ]
 
 const TEACHING = [
+  { role: 'Head Lab Instructor & Lecturer', courses: 'Microprocessor and Assembly Labs (6 semesters)' },
   { role: 'Head TA', courses: 'Computer Networks, Startup Development, Data Mining, Web Engineering, Operating Systems' },
   { role: 'Teaching Assistant', courses: 'IoT, Microprocessor, Data Structures, Design Algorithms, Advanced Programming' },
-  { role: 'Lab Instructor', courses: 'Microprocessor and Assembly Labs (6 semesters)' },
 ]
 
 export default function Projects() {
@@ -57,6 +57,7 @@ export default function Projects() {
               <div
                 key={i}
                 className="p-5 rounded-xl border border-terminal-border bg-terminal-bg hover:border-terminal-go/50 transition-colors"
+                onClick={() => window.open(p.link, '_blank')}
               >
                 <h5 className="font-semibold text-white mb-1">{p.title}</h5>
                 <p className="text-terminal-muted text-sm mb-3">{p.desc}</p>

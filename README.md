@@ -1,6 +1,6 @@
-# Mohammadreza Qaderi · Portfolio
+# Mohammadreza Qaderi · Page
 
-Senior Backend Engineer portfolio — terminal-inspired, developer-focused, dark theme.
+Senior Backend Engineer — terminal-inspired, developer-focused, dark theme.
 
 **Stack:** React, Vite, Tailwind CSS.
 
